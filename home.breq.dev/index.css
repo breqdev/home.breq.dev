@@ -29,7 +29,13 @@ img {
   height: 13em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+  img {
+    height: 8em;
+  }
+}
+
+@media (max-width: 992px) {
   body {
     flex-direction: column;
     font-size: 18px;
@@ -37,7 +43,7 @@ img {
   }
 
   img {
-    height: 15em;
+    height: 12em;
   }
 }
 
